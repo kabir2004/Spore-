@@ -42,28 +42,28 @@ Spore is a modern workspace that unifies notes, meetings, email, and decisions i
 
 ### Email & inbox
 
-- <img src="https://img.shields.io/badge/Gmail-EA4335?style=flat-square&logo=gmail&logoColor=white" height="18" alt="Gmail" /> **Gmail** — Connect your Gmail account to read and send emails directly from Spore. Search, star, archive, and reply without leaving the workspace.
-- <img src="https://img.shields.io/badge/Outlook-0078D4?style=flat-square&logo=microsoftoutlook&logoColor=white" height="18" alt="Outlook" /> **Outlook** — Connect Microsoft Outlook (Outlook.com / Microsoft 365) to bring your Outlook mail into the same inbox. Read, send, and manage messages alongside your notes and meetings.
+- <img src="https://img.shields.io/badge/%20-EA4335?style=flat-square&logo=gmail&logoColor=white" height="18" alt="" /> **Gmail** — Connect your Gmail account to read and send emails directly from Spore. Search, star, archive, and reply without leaving the workspace.
+- <img src="https://img.shields.io/badge/%20-0078D4?style=flat-square&logo=microsoftoutlook&logoColor=white" height="18" alt="" /> **Outlook** — Connect Microsoft Outlook (Outlook.com / Microsoft 365) to bring your Outlook mail into the same inbox. Read, send, and manage messages alongside your notes and meetings.
 
 One unified inbox in Spore; connect either Gmail or Outlook (or both, per workspace) and keep communication next to the work it belongs to.
 
 ### Calendar & meetings
 
-- <img src="https://img.shields.io/badge/Google_Calendar-4285F4?style=flat-square&logo=googlecalendar&logoColor=white" height="18" alt="Google Calendar" /> **Google Calendar** — Sync events, create meetings, and see your schedule alongside Spore. Events and notes stay linked.
-- <img src="https://img.shields.io/badge/Outlook_Calendar-0078D4?style=flat-square&logo=microsoftoutlook&logoColor=white" height="18" alt="Outlook Calendar" /> **Outlook Calendar** — Sync Microsoft calendar events and manage availability from the workspace.
+- <img src="https://img.shields.io/badge/%20-4285F4?style=flat-square&logo=googlecalendar&logoColor=white" height="18" alt="" /> **Google Calendar** — Sync events, create meetings, and see your schedule alongside Spore. Events and notes stay linked.
+- <img src="https://img.shields.io/badge/%20-0078D4?style=flat-square&logo=microsoftoutlook&logoColor=white" height="18" alt="" /> **Outlook Calendar** — Sync Microsoft calendar events and manage availability from the workspace.
 - **Meetings in context** — Schedule meetings, capture notes inside the event, and link action items directly to pages. When the call ends, nothing falls out of context.
-- <img src="https://img.shields.io/badge/Cal.com-292929?style=flat-square&logo=caldotcom&logoColor=white" height="18" alt="Cal.com" /> **Cal.com** — Connect your Cal.com booking page so teammates can schedule time with you.
-- <img src="https://img.shields.io/badge/Zoom-2D8CFF?style=flat-square&logo=zoom&logoColor=white" height="18" alt="Zoom" /> **Zoom** — Auto-generate Zoom links when creating meetings.
+- <img src="https://img.shields.io/badge/%20-292929?style=flat-square&logo=caldotcom&logoColor=white" height="18" alt="" /> **Cal.com** — Connect your Cal.com booking page so teammates can schedule time with you.
+- <img src="https://img.shields.io/badge/%20-2D8CFF?style=flat-square&logo=zoom&logoColor=white" height="18" alt="" /> **Zoom** — Auto-generate Zoom links when creating meetings.
 
 ### Integrations & AI
 
-- <img src="https://img.shields.io/badge/Slack-4A154B?style=flat-square&logo=slack&logoColor=white" height="18" alt="Slack" /> **Slack** — Send Spore notifications into your Slack channels.
-- **AI models** — Connect <img src="https://img.shields.io/badge/Claude-D4A574?style=flat-square&logo=anthropic&logoColor=white" height="16" alt="Claude" /> Claude (Anthropic), <img src="https://img.shields.io/badge/OpenAI-10A37F?style=flat-square&logo=openai&logoColor=white" height="16" alt="OpenAI" /> OpenAI / ChatGPT, <img src="https://img.shields.io/badge/Google_Gemini-4285F4?style=flat-square&logo=google&logoColor=white" height="16" alt="Google Gemini" /> Google Gemini, or <img src="https://img.shields.io/badge/Groq-F55036?style=flat-square&logo=groq&logoColor=white" height="16" alt="Groq" /> Groq to write, summarize, and reason inside your pages. API-key based; no OAuth required.
+- <img src="https://img.shields.io/badge/%20-4A154B?style=flat-square&logo=slack&logoColor=white" height="18" alt="" /> **Slack** — Send Spore notifications into your Slack channels.
+- **AI models** — Connect <img src="https://img.shields.io/badge/%20-D4A574?style=flat-square&logo=anthropic&logoColor=white" height="16" alt="" /> **Claude** (Anthropic), <img src="https://img.shields.io/badge/%20-10A37F?style=flat-square&logo=openai&logoColor=white" height="16" alt="" /> **OpenAI** / ChatGPT, <img src="https://img.shields.io/badge/%20-4285F4?style=flat-square&logo=google&logoColor=white" height="16" alt="" /> **Google Gemini**, or <img src="https://img.shields.io/badge/%20-F55036?style=flat-square&logo=groq&logoColor=white" height="16" alt="" /> **Groq** to write, summarize, and reason inside your pages. API-key based; no OAuth required.
 
 ### Signing & more
 
 - **PDF signing** — Upload PDFs, place signature fields, and collect signatures inside the workspace.
-- **Auth** — Email/password sign up and sign in, plus <img src="https://img.shields.io/badge/Google-4285F4?style=flat-square&logo=google&logoColor=white" height="16" alt="Google" /> **Google** and <img src="https://img.shields.io/badge/Microsoft-0078D4?style=flat-square&logo=microsoft&logoColor=white" height="16" alt="Microsoft" /> **Microsoft** OAuth. Optional email confirmation.
+- **Auth** — Email/password sign up and sign in, plus <img src="https://img.shields.io/badge/%20-4285F4?style=flat-square&logo=google&logoColor=white" height="16" alt="" /> **Google** and <img src="https://img.shields.io/badge/%20-0078D4?style=flat-square&logo=microsoft&logoColor=white" height="16" alt="" /> **Microsoft** OAuth. Optional email confirmation.
 - **Settings** — Profile, account, workspace, members, billing, notifications, and integrations (Gmail, Outlook, calendars, Cal.com, Zoom, Slack, AI) all in one place.
 
 ---
