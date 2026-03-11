@@ -10,7 +10,42 @@
 
 **One workspace. Every decision.**
 
-Spore is a modern workspace that unifies notes, meetings, and decisions in a single block-based canvas. Context stays attached to the work—no more scattered docs or lost action items.
+Spore is a modern workspace that unifies notes, meetings, email, and decisions in a single block-based canvas. Context stays attached to the work—no more scattered docs, lost threads, or action items that slip through the cracks.
+
+---
+
+## The product
+
+### Workspace & editor
+
+- **Block-based canvas** — Text, code, tables, callouts, equations, and embedded media in one place. Structure emerges as you write. Slash commands, drag-and-drop, and real-time sync.
+- **Workspaces** — Per-user or team workspaces with granular permissions. Everyone stays on the same version.
+
+### Email & inbox
+
+- **Gmail** — Connect your Gmail account to read and send emails directly from Spore. Search, star, archive, and reply without leaving the workspace.
+- **Outlook** — Connect Microsoft Outlook (Outlook.com / Microsoft 365) to bring your Outlook mail into the same inbox. Read, send, and manage messages alongside your notes and meetings.
+
+One unified inbox in Spore; connect either Gmail or Outlook (or both, per workspace) and keep communication next to the work it belongs to.
+
+### Calendar & meetings
+
+- **Google Calendar** — Sync events, create meetings, and see your schedule alongside Spore. Events and notes stay linked.
+- **Outlook Calendar** — Sync Microsoft calendar events and manage availability from the workspace.
+- **Meetings in context** — Schedule meetings, capture notes inside the event, and link action items directly to pages. When the call ends, nothing falls out of context.
+- **Cal.com** — Connect your Cal.com booking page so teammates can schedule time with you.
+- **Zoom** — Auto-generate Zoom links when creating meetings.
+
+### Integrations & AI
+
+- **Slack** — Send Spore notifications into your Slack channels.
+- **AI models** — Connect Claude (Anthropic), OpenAI / ChatGPT, Google Gemini, or Groq to write, summarize, and reason inside your pages. API-key based; no OAuth required.
+
+### Signing & more
+
+- **PDF signing** — Upload PDFs, place signature fields, and collect signatures inside the workspace.
+- **Auth** — Email/password sign up and sign in, plus **Google** and **Microsoft** OAuth. Optional email confirmation.
+- **Settings** — Profile, account, workspace, members, billing, notifications, and integrations (Gmail, Outlook, calendars, Cal.com, Zoom, Slack, AI) all in one place.
 
 ---
 
@@ -18,10 +53,11 @@ Spore is a modern workspace that unifies notes, meetings, and decisions in a sin
 
 | | |
 |---|---|
-| **Unified canvas** | One place for text, code, tables, callouts, and media. Structure emerges as you write. |
-| **Meetings that stick** | Schedule events, capture notes in-context, and link outcomes directly to pages. |
-| **Workspaces & sync** | Per-user or team workspaces with real-time sync and granular permissions. |
-| **Ready for production** | Auth (email + Google/Microsoft), inbox, calendar, PDF signing, and full settings. |
+| **Unified canvas** | Notes, email, and meetings live in one workspace. Structure appears as you write. |
+| **Email where you work** | Gmail and Outlook inside Spore—read, reply, and search without switching tabs. |
+| **Meetings that stick** | Calendar sync (Google & Outlook), meeting notes, and action items linked to pages. |
+| **Integrations** | Cal.com, Zoom, Slack, and AI (Claude, OpenAI, Gemini, Groq) connect in Settings. |
+| **Production-ready** | Real-time sync, granular permissions, PDF signing, and full auth (email + Google + Microsoft). |
 
 ---
 
@@ -48,7 +84,7 @@ Run the schema (Supabase SQL Editor or CLI—see [supabase/README.md](supabase/R
 npm run dev
 ```
 
-Open the URL shown in the terminal (e.g. `http://localhost:3000` or `3001`). Sign up at `/signup` or sign in at `/login`.
+Open the URL shown in the terminal (e.g. `http://localhost:3000` or `3001`). Sign up at `/signup` or sign in at `/login`. Connect **Gmail** or **Outlook** from the Inbox or **Settings → Integrations** to try the unified inbox.
 
 ---
 
@@ -90,7 +126,7 @@ Open the URL shown in the terminal (e.g. `http://localhost:3000` or `3001`). Sig
 
 1. Set `NEXT_PUBLIC_SUPABASE_URL`, `NEXT_PUBLIC_SUPABASE_ANON_KEY`, and optionally `NEXT_PUBLIC_SITE_URL` in your host (e.g. Vercel).
 2. In Supabase → **Authentication → URL Configuration**, set **Site URL** and add **Redirect URLs** for your production domain (e.g. `https://your-app.vercel.app/auth/callback`).
-3. Deploy; see [docs/deployment.md](docs/deployment.md) for details.
+3. For **Gmail** and **Outlook** integrations, configure the corresponding OAuth apps (Google Cloud Console / Microsoft Azure) and set `GOOGLE_CLIENT_ID`, `GOOGLE_CLIENT_SECRET`, `MICROSOFT_CLIENT_ID`, `MICROSOFT_CLIENT_SECRET` (and redirect URIs) in your host. See [docs/deployment.md](docs/deployment.md) for details.
 
 ---
 
